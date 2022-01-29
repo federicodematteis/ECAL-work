@@ -2,7 +2,7 @@
 The aim of the work was to find a proper 2D-functional form for the Transparency of CMS-Ecal xtals, and evaluate the consequences of its correction on the trigger efficiency. 
 I traded the path of @amassiro,@valsdav beginning from:
 # Data Preparation
-some files at link:
+some files (Transp_data_EE/EB.npy and the Blue_laser file) are at link:
  http://dvalsecc.web.cern.ch/dvalsecc/ECAL/Transparency/data_v1/
  
 1- Laserdata preparation takes in input the file:
