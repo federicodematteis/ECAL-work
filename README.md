@@ -5,9 +5,9 @@ I traded the path of @amassiro,@valsdav beginning from:
 some files (Transp_data_EE/EB.npy, lumi_brilcalc file and Blue_laser file) at link:
  http://dvalsecc.web.cern.ch/dvalsecc/ECAL/Transparency/data_v1/
  
-1- Laserdata preparation takes in input the file:
+1- LaserDataPreparation.py takes in input the file:
 BlueLaser_2017_rereco_v2_newformat.root
-it outputs Transparency datas divided into two npy arrays and several transparency metadata with non-regular (non-constant) time-granularity: transp_metadata_2017_v2.csv, transp_data_EE.npy transp_data_EB.npy .
+It outputs Transparency datas divided into two npy arrays, and several transparency metadata, with non-regular (non-constant) time-granularity: transp_metadata_2017_v2.csv, transp_data_EE.npy transp_data_EB.npy .
 
 2-TimestepsDataPreparation.py takes the lumi_brilcalc_2017.csv file and outputs several metadata with a 10 min time step: output_metadata_2017_10min.csv (or fill_metadata_2017_10min.csv)
 
