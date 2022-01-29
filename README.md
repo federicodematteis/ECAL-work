@@ -1,6 +1,6 @@
-# @Brusale's Thesys
+# @brusale's Thesys
 The aim of the work was to find a proper 2D-functional form for the Transparency of CMS-Ecal xtals, and evaluate the consequences of its correction on the trigger efficiency. 
-I traded the path of @Amassiro,@valsdav beginning from:
+I traded the path of @amassiro,@valsdav beginning from:
 # Data Preparation
 1- Laserdata preparation takes in input the file:
 BlueLaser_2017_rereco_v2_newformat.root
@@ -16,16 +16,18 @@ In his work @Brusale used iRing.py to do the same job of output_transp_timestamp
 
 # Plotting
 We will use only EE datas for now.
-Trading the path of @Brusale I used the EE_2D_Fitting.py script for evaluating the parameters of fit_func2 on iRing25.npy and to plot several fit-function and bias.
+Trading the path of @brusale I used the EE_2D_Fitting.py script for evaluating the parameters of fit_func2 on iRing<num>.npy and to plot several fit-function and bias.
 With the same script is possible to test the model found for one iRing on other iRings.
 
 
 # Expected Performance
-For evaluating Transparency correction's effect on the trigger efficiency @Brusale used TurnOnCurve.py wich fills three different hist: real transp. datas, corrected transp. data and Ideal efficiency (the step function).
+For evaluating Transparency correction's effect on the trigger efficiency @Brusale used TurnOnCurve.cxx wich fills three different hist: real transp. datas, corrected transp. data and Ideal efficiency (the step function).
+(another script is used to convert iRing<num>.npy into .txt files: GetData.py making them readable for the cxx script)
 The main focus was to have a starting point: TurnOnCurve for real Transparency datas, and a target: the step function, using parameters found with EE_2D_Fitting on some iRings
 
 # Machine Learning 
-the aim of the current work : Transparency predictions with a DNN regression.
+The aim of the current work : Transparency predictions (for a single fill) with a DNN regression.
+
 
 
 
