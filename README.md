@@ -19,9 +19,8 @@ In his work @Brusale used iRing.py to do the same job of output_transp_timestamp
 
 # Plotting
 We will use only EE datas for now.
-Trading the path of @brusale I used the EE_2D_Fitting.py script for evaluating the parameters of fit_func2 on iRing<num>.npy and to plot several fit-function and bias.
+Trading the path of @brusale I used the EE_2D_Fitting.py script for evaluating the parameters of fit_func2 on iRing<num>.npy's  main Transparency entries and to plot several fit-function and bias.
 With the same script is possible to test the model found for one iRing on other iRings.
-
 
 # Expected Performance
 For evaluating Transparency correction's effect on the trigger efficiency @Brusale used TurnOnCurve.cxx wich fills three different hist: real transp. datas, corrected transp. data and Ideal efficiency (the step function).
