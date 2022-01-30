@@ -24,7 +24,7 @@ Trading the path of @brusale I used the EE_2D_Fitting.py script for evaluating t
 With the same script is possible to test the model found for one iRing on other iRings.
 
 # Expected Performance
-Aanother script is used to convert iRing<num>.npy into .txt files: GetData.py, making them readable for the cxx script).
+Another script is used to convert iRing<num>.npy into .txt files: GetData.py, making them readable for the cxx script).
 For evaluating Transparency correction's effect on the trigger efficiency @Brusale used TurnOnCurve.cxx which fills three different hist: -efficiency real, efficiency corrected and Ideal efficiency (the step function).
  
 The main focus was to have a starting point: TurnOnCurve for real Transparency datas, and a target: the step function, using parameters found with EE_2D_Fitting on some iRings
