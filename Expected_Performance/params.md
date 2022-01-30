@@ -1,5 +1,6 @@
-# This file contains fit parameters for function fit_func_2 in the EE_2D_Fitting.py (~/Plotting folder) for different iRings, (to find them compile EE_2D_Fitting using .npy files in the ~Plotting folder)
-# we will make a copy of params and use them in TurnOnCurve.cxx (see TurnOnCurve.cxx, rows 58-64)
+# Parameters obtained from fitting fit_func_2 with iRings transparency datas
+This file contains fit parameters for function fit_func_2 in the EE_2D_Fitting.py (~/Plotting folder) for different iRings, (to find them compile EE_2D_Fitting using .npy files in the ~Plotting folder).
+We will make a copy of params and use them in TurnOnCurve.cxx (see TurnOnCurve.cxx, rows 58-64)
 
 
 fit parameters                                                             |         iRing
