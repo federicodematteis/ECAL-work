@@ -1,6 +1,7 @@
 # @brusale's Thesys 
 The aim of the work was to find a proper 2D-functional form for the Transparency of CMS-ECAL xtals (its correlation with Instantaneous luminosity and Integrated luminosity), and evaluate the consequences of its correction on the trigger efficiency.
-lik to transparency repo: https://github.com/federicodematteis/Transparency
+
+link to transparency repo: https://github.com/federicodematteis/Transparency
 
 # Data Preparation
 link to files: http://dvalsecc.web.cern.ch/dvalsecc/ECAL/Transparency/data_v1/ .
