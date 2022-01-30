@@ -9,7 +9,7 @@ def fit_func2(data, a, b, c, d, e, f):
     return (a*np.exp(-b*x)+(1-a)*np.exp(c*x))*(d*np.exp(-e*(y-y_0))+(1-d)*np.exp(f*(y-y_0)))
 ...
 
-This file contains fit parameters for function fit_func_2 in the EE_2D_Fitting.py (~/Plotting folder) for different iRings, (to find them compile EE_2D_Fitting using .npy files in the ~Plotting folder).
+This file contains fit parameters for function fit_func_2 in the EE_2D_Fitting.py (~/Plotting folder) for different iRings (to find them compile EE_2D_Fitting using .npy files in the ~Plotting folder).
 We will make a copy of params and use them in TurnOnCurve.cxx (see TurnOnCurve.cxx, rows 58-64)
 
 
