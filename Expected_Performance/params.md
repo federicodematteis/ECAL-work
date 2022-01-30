@@ -12,7 +12,7 @@ def fit_func2(data, a, b, c, d, e, f):
 This file contains fit parameters for function fit_func_2 in the EE_2D_Fitting.py (~/Plotting folder) for different iRings, (to find them compile EE_2D_Fitting using .npy files in the ~Plotting folder).
 We will make a copy of params and use them in TurnOnCurve.cxx (see TurnOnCurve.cxx, rows 58-64)
 
-#-----------------------------------------------------------------------------------------
+
 fit parameters                                                             |         iRing
 
 [ 0.99926682  0.00796825  4.06367104  4.45252793  1.32586626 -2.34005698]  |		  1
