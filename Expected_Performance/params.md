@@ -1,8 +1,18 @@
 # Parameters obtained from fitting fit_func_2 with iRings transparency datas
+
+in EE_2D_Fitting.py:
+...
+def fit_func2(data, a, b, c, d, e, f):
+    x = data[0]
+    y = data[1]
+    y_0 = data[2]
+    return (a*np.exp(-b*x)+(1-a)*np.exp(c*x))*(d*np.exp(-e*(y-y_0))+(1-d)*np.exp(f*(y-y_0)))
+...
+
 This file contains fit parameters for function fit_func_2 in the EE_2D_Fitting.py (~/Plotting folder) for different iRings, (to find them compile EE_2D_Fitting using .npy files in the ~Plotting folder).
 We will make a copy of params and use them in TurnOnCurve.cxx (see TurnOnCurve.cxx, rows 58-64)
 
-
+#-----------------------------------------------------------------------------------------
 fit parameters                                                             |         iRing
 
 [ 0.99926682  0.00796825  4.06367104  4.45252793  1.32586626 -2.34005698]  |		  1
