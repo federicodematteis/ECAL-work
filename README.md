@@ -30,6 +30,6 @@ For evaluating Transparency correction's effect on the trigger efficiency @Brusa
 The main focus was to have a starting point: TurnOnCurve for real Transparency datas, and a target: the step function, using parameters found with EE_2D_Fitting on some iRings
 
 # Machine Learning 
-The aim of the current work : Transparency predictions (for a single fill) with a DNN regression.
+The aim of the current work : Transparency predictions with a DNN regression.
  
 (thanks to @brusale, @amassiro, @valsdav)
