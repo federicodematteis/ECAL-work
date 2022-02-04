@@ -22,6 +22,7 @@ In his work @Brusale used iRing.py to do the same job of output_transp_timestamp
 We will use only EE datas for now.
 Trading the path of @brusale I used the EE_2D_Fitting.py script for evaluating the parameters of fit_func2 on iRing<num>.npy's  mean Transparency entries and to plot several fit-function and bias.
 With the same script is possible to test the model on other iRings.
+Some scripts added for making predictions on transparency over a single fill.
 
 # Expected Performance
 Another script is used to convert iRing<num>.npy into .txt files: GetData.py, making them readable for the cxx script).
