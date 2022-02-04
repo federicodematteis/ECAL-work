@@ -92,7 +92,7 @@ print(transp_fill)
 print("metadata for curve fitting")
 print(metadata0)
 
-#This is the function used in TurnOnCurve.cxx to correct transparency
+#This is the function used in TurnOnCurve.cxx to predict transparency
 def fit_func2(data, a, b, c, d, e, f):
     x = data[0]
     y = data[1]
@@ -116,8 +116,7 @@ par2=[0.99327073,0.03867906,3.22509689,7.48668825,2.61653155,-2.93094313] #iring
 
 
 print([metadata0.lumi_in_fill*(1e-9), metadata0.lumi_inst*(1e-9)])
-#transp fill dovrebbe essere la trasparenza media nel fill selezionato in questo script: 
-#in EE2Dfitting è 
+
 par2, pcov2 = curve_fit(fit_func2, [metadata0.lumi_in_fill*(1e-9), metadata0.lumi_inst*(1e-9)], transp_fill, maxfev=5000)
 print(par2)
 # #@brusale : par2 = [0.993,3.87e-2,3.22,10,2.71,-3.02]
@@ -131,20 +130,6 @@ plt.tick_params(labelsize=5)
 plt.legend()
 plt.ylabel('Normalized mean transparency')
 plt.show()
-
-
-
-
-
-# print(metadata1)
-# #inserire non a mano 
-# lumi_inst_0 = 8.004434
-
-#posso eseguire il fit direttamente qui ?
-#forse sarebbe meglio, prendo transp di un particolare fill e faccio l fit
-#tanto la funzione è gia defiita e il valore per esempio di transp nel fill 
-#6371 è salvato in mean_0; così faccio un fit alla volta e poi plotto 
-#quella intera (cioè per tutt i fill) con un for ad esempio
 
 # #mean transparency in iRing predicted vs real - signle fill
 # plt.plot(date1, fit_func2([metadata1.lumi_in_fill*(1e-9), metadata1.lumi_inst*(1e-9), lumi_inst_0*(1e-9)], *par2), ".r-", markersize=2, linewidth=0.75, label="iRing 25 predicted, fill 6371" )
