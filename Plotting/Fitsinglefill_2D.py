@@ -137,6 +137,6 @@ plt.show()
 
 #notiamo che la predizione per gli i ring 24, 25, 26 sono molto simili tra loro, mentre la predizione 
 #per i Ring 25 si discosta dalle altre, iRing25 non è un ottimo candidato per fare predizione sullo stesso fill di altri iRing.
-#in realà pe rottenere la predizione su altri i Ring(diversi da 26) basta cambiare il file numpy in input alla riga 22
+#in realtà pe rottenere la predizione su altri i Ring(diversi da 26) basta cambiare il file numpy in input alla riga 22
 
 
