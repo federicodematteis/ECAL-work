@@ -4,7 +4,7 @@ These plots were obtained using the script EE_2D_Fitting : it fits the fit_func_
 then uses the parameters fitting for plotting the fit_func_2 as a prediction for Transparency.
 We see the behaviour over time of predicted values for Transparency in red, and measured values in blue.
   
-Plots named predictionfill<num> are the plots for Transparency predicted and real for a single fill;
+Plots named predictionfillnum.png are the plots for Transparency predicted and real for a single fill;
 In one plot we can see different curves for iRing26 fills (three different fills were taken in consideration)
 these are the predictions made using different iRings for the same fill.
  
