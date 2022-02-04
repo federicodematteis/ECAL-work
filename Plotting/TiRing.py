@@ -97,7 +97,7 @@ def fit_func2(data, a, b, c, d, e, f):
     x = data[0]
     y = data[1]
     #y_0 = data[2]
-    y_0 = metadata0.lumi_inst[0]*(1e-9)
+    y_0 = 8.004434*(1e-9)
     return (a*np.exp(-b*x)+(1-a)*np.exp(c*x))*(d*np.exp(-e*(y-y_0))+(1-d)*np.exp(f*(y-y_0)))
 
 def fit_func1(data, a, b, c, d, e, f):
