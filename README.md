@@ -25,11 +25,12 @@ With the same script is possible to test the model on other iRings.
 
 # Expected Performance
 Another script is used to convert iRing<num>.npy into .txt files: GetData.py, making them readable for the cxx script).
-For evaluating Transparency correction's effect on the trigger efficiency @Brusale used TurnOnCurve.cxx which fills three different hist: -efficiency real, efficiency corrected and Ideal efficiency (the step function).
+@Brusale used TurnOnCurve.cxx for evaluating the effect of Transparency predictions on the trigger efficiency, which fills three different hist: -efficiency real, efficiency corrected and Ideal efficiency (the step function).
  
 The main focus was to have a starting point: TurnOnCurve for real Transparency datas, and a target: the step function, using parameters found with EE_2D_Fitting on some iRings
 
 # Machine Learning 
 The aim of the current work : Transparency predictions with a DNN regression.
+As a first step we go through 2D fitting, but the fit is going to be on the single fill in order to make a more precise prediction on the entire run;
  
 (thanks to @brusale, @amassiro, @valsdav)
