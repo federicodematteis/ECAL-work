@@ -32,6 +32,6 @@ The main focus was to have a starting point: TurnOnCurve for real Transparency d
 
 # Machine Learning 
 The aim of the current work : Transparency predictions with a DNN regression.
-As a first step, before entering the machine learning environment, we go through 2D fitting, but now the fit is going to be on the single fill in order to make a more precise prediction on the entire run (diferently from the previous work for which the perspective was to use just few iRing.npy file to get a higher trigger performance on the entire run, for what concerns 2D Fitting);
+As a first step, before entering the machine learning environment, we go through 2D fitting, but now the fit is going to be on the single fill in order to make a more precise prediction on the entire run (in the previous work the perspective was to use just few iRing.npy file to get a higher trigger performance on the entire run, for what concerns 2D Fitting);
  
 (thanks to @brusale, @amassiro, @valsdav)
