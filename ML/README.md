@@ -7,6 +7,6 @@ This plot needs a comparison with the same plot obtained from the previous work 
 
 ## Work in progress
 Now i want to use more than 1 iRing.npy as train dataset; 
-the purpose is to append one dataset to the queue of another, using the new duplicated metadata-frame as input for training, and to take the time data into consideration as an input, in order to predict transparency data on a single iRing.
+the first purpose is to append one luminosity dataset to its own queue and use the new duplicated metadata-frame as inputs for training; the second is to take the time data into consideration as an input, in order to predict transparency data on a single iRing.
 
 
