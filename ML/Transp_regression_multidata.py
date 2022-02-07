@@ -197,8 +197,8 @@ transp_training   = transp_norm_TRAIN2
 transp_validation = transp_norm_test
 
 print(all_inputs_validation)
+
 # now actually performing the train (ง •̀_•́)ง
-#da errore sul train perchè vede 54mila vs 
 history = model.fit( all_inputs_training, transp_training, validation_data = (all_inputs_validation,transp_validation), epochs=150, verbose=0)
 
 # ... and plot the training loss
