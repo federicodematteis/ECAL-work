@@ -46,7 +46,7 @@ transp_fill = []
 lumi_inst_0 = []
 lumi_int_0 = []
 
-#transparency relativa a tutti gli iring
+#transparency for all fill_num
 
 for k in fill_num:
     df = metadata_fill[metadata_fill.fill_num == k]
