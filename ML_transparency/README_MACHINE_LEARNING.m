@@ -19,3 +19,7 @@
  
  https://drive.google.com/drive/folders/1I6BkrzeLT32tdffg69Ur28uMcqenL3M1?usp=sharing
  
+Infine, gli script Multiple_eta_model.py e single_eta_model.py sono gli script principali con i modelli
+di reti neurali deep utilizzate nel lavoro.
+single_eta_model è una rete neurale addestrata con dati di trasparenza provenienti da un singolo i-Ring.
+multiple_eta_model è una rete neurale addestrata con dati di trasparenza provenienti da più i-Rings nelle Endcaps.
